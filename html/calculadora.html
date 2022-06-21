@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ResiCal</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/calculadora.css">
 </head>
 <body>
 
@@ -23,38 +23,31 @@
 
 </header>
 
-
-<form  class="_form" action="">
+<div class="container">
    
-   <div class="conteiner">
-    <div><h2>Calculadora</h1></div>
-        <input  id="visor" type="text" name="visor">
-        <div class="_button">
-            <input  id="button" type="button" value=7>
-            <input  id="button" type="button" value=8>
-            <input  id="button" type="button" value=9>
-            <input  id="button" type="button" value=/>
-        </div> 
-        <div class="_button">
-            <input id="button" type="button" value=4>
-            <input id="button" type="button" value=5>
-            <input id="button" type="button" value=6>
-            <input id="button" type="button" value="*">
-        </div> 
-        <div class="_button">
-            <input id="button" type="button" value=1>
-            <input id="button" type="button" value=2>
-            <input id="button" type="button" value=3>
-            <input id="button" type="button" value="+">
-        </div> 
-        <div class="_button">
-            <input id="button" type="button" value=0>
-            <input id="button" type="reset" value="C">
-            <input id="button" type="button" value= "=">
-            <input id="button" type="button" value="-">
-        </div> 
-        </div>
-</form>
+    <div class="calculadora">
+      <div class="calculadoraVisor">0</div>
+      <div class="calculator__keys">
+        <button class="key--operator" data-action="add">+</button>
+        <button class="key--operator" data-action="subtract">-</button>
+        <button class="key--operator" data-action="multiply">&times;</button>
+        <button class="key--operator" data-action="divide">÷</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>0</button>
+        <button data-action="decimal">.</button>
+        <button data-action="clear">AC</button>
+        <button class="key--equal" data-action="calculate">=</button>
+      </div>
+    </div>
+  </div>
 
 <footer class="rodape">
     <p>Todos os direitos reservados - ResiCal 2022</p>

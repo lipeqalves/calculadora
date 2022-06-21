@@ -3,6 +3,7 @@
     margin: 0;
     list-style-type: none;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     flex-direction: column;
@@ -11,22 +12,17 @@ body{
     min-height:100vh;
     background-image: url(https://images.pexels.com/photos/5412432/pexels-photo-5412432.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
-
 ._header{
     width: 1360px;
     display:flex;
     align-items: center;
     justify-content:space-between;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #0f0e17;
-    border-radius: 8px; 
-    
+    border-radius: 5px; 
 }
 ._header h1{
     padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #ff8906;
-     
+    color: #ff8906;   
 }
 ._menu ul{
     display: flex;
@@ -34,14 +30,8 @@ body{
     justify-content: space-around;
     width:400px;
     padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ff8906;
-
 }
-#msgSaida{
-    display: flex;
-}
-
 ._form{
     display: flex;
     align-items: center;
@@ -49,7 +39,7 @@ body{
     flex:1; 
 }
 h2, #msgSaida{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     color: #ff8906;
     padding: 5px;
     text-align: center;
@@ -67,17 +57,15 @@ h2, #msgSaida{
     background-color: #0f0e17;
 }
 ._button{
-    
     padding: 10px;
     width: 160px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    color: #ff8906;
-        
+    color: #ff8906;    
 }
 #button{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     color: blue;
     width: 80px;
     height: 30px;
@@ -86,13 +74,13 @@ h2, #msgSaida{
     background-color:  #ff8906;
     border-radius: 8px;
 }
-#visor{
-    padding: 5px;
-    border: solid 1px;
-    border-radius: 8px;
-    width: 160px;
-}
-
+.calculadoraVisor {
+    background-color: #222222;
+    color: #fff;
+    font-size: 1em;
+    padding: 0.2em 0.5em;
+    text-align: right;
+  }
 .rodape{
     width: 1360px;
     display:flex;
@@ -103,6 +91,5 @@ h2, #msgSaida{
 }
 .rodape p{
     padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ff8906;
 }
