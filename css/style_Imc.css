@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    list-style-type: none;
+    text-decoration: none;
 }
 body{
     flex-direction: column;
@@ -36,12 +38,17 @@ body{
     color: #ff8906;
 
 }
+#msgSaida{
+    display: flex;
+}
+
 ._form{
     display: flex;
     align-items: center;
+    /*flex-direction:column;*/
     flex:1; 
 }
-h2{
+h2, #msgSaida{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ff8906;
     padding: 5px;
