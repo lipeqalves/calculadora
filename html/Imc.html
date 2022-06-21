@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="../css/style_Imc.css"
+</head>
+<body>
+<header class="_header">
+
+    <h1><i class="fa-duotone fa-calculator-simple"></i> ResiliaCal</h1>
+    <div class="_menu">
+       <ul>
+        <a href="./index.html" target="_self" <li>Calculadora Numérica</li>
+            <a href="./index_Imc.html" target="_self"><li>IMC</li></a>
+            <li>IP</li>
+            <li>Conversor</li>
+       </ul>
+    </div>
+</header>
+
+<form class="_form" action="">
+    <div class="conteiner">
+        <h2>
+           IMC
+        </h2>
+        <div class="_button">
+            
+            <label for="altura">Altura(m)</label>       
+            <input type="text" id="altura" placeholder="Digite altura!" required>            
+            <label for="peso">Peso(kg)</label>
+            <input type="text" id="peso" placeholder="Digite peso!" required>  
+            <label for="nome">Resultado</label>
+            <input type="text" id="result" placeholder="IMC">      
+            <button type="submit" id ="cal">Calcular</button>
+        
+        </div>
+    
+    </div>
+
+
+</form>
+<footer class="rodape">
+    <p>Todos os direitos reservados - ResiliaCal 2022</p>
+</footer>
+
+<script src="../script/imc.js"></script>
+</body>
+</html>
