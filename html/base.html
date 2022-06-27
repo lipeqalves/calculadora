@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMC</title>
-    <link rel="stylesheet" href="../css/style_Imc.css"
+    <title>Base</title>
+    <link rel="stylesheet" href="../css/style_Imc.css">
 </head>
 <body>
 <header class="_header">
@@ -24,32 +24,30 @@
 </header>
 
 <form class="_form" action="">
-    <img src="../img/imc1.webp" alt="" srcset="">
+    
     <div class="conteiner">
         <h2>
-           IMC
+           Conversor de Base
         </h2>
         <div class="_button">
             
-            <label for="altura">Altura(m)</label>       
-            <input type="text" id="altura" placeholder="Digite altura!" required>            
-            <label for="peso">Peso(kg)</label>
-            <input type="text" id="peso" placeholder="Digite peso!" required>  
+            <label for="decimal">Decimal</label>       
+            <input type="text" id="decimal" placeholder="Digite o valor" required>  
+            <label for="base">Base</label>
+            <input type="text" id="base" placeholder="Digite a base 2,8 ou 16" required> 
+            <button type="submit" id ="cal">Converter</button>
             <label for="nome">Resultado</label>
-            <input class="calculadoraVisor" type="text" id="result" placeholder="IMC">     
-            <button type="submit" id ="cal">Calcular</button>
-        
+            <input class="calculadoraVisor" type="text" id="result" placeholder="Decimal">     
+            
         </div>
         <p id ="msgSaida"> </p>
-    
     </div>
-   
-
+  
 </form>
 <footer class="rodape">
     <p>Todos os direitos reservados - ResiliaCal 2022</p>
 </footer>
 
-<script src="../script/imc.js"></script>
+<script src="../script/base.js"></script>
 </body>
 </html>
